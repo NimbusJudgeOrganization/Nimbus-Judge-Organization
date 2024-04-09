@@ -1,0 +1,12 @@
+[submodule "NimbusJudge/API_NimbusJudge"]
+	path = NimbusJudge/API_NimbusJudge
+	url = git@github.com:NimbusJudgeOrganization/API_NimbusJudge.git
+[submodule "NimbusJudge/CLIENT_NimbusJudge"]
+	path = NimbusJudge/CLIENT_NimbusJudge
+	url = git@github.com:NimbusJudgeOrganization/CLIENT_NimbusJudge.git
+[submodule "Architecture/API_MicroJudge"]
+	path = Architecture/API_MicroJudge
+	url = git@github.com:NimbusJudgeOrganization/API_MicroJudge.git
+[submodule "Judge/JUDGE_MicroJudge"]
+	path = Judge/JUDGE_MicroJudge
+	url = git@github.com:NimbusJudgeOrganization/JUDGE_MicroJudge.git
