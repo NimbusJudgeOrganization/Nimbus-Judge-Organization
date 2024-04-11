@@ -12,32 +12,37 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  palette: 
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-      primary: red
-      accent: purple
+  palette:
     - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-      primary: red
-      accent: lime
-  markdown_extensions:
-    - pymdownx.highlight:
-        anchor_linenums:true
-    - pymdownx.inlinehilite
-    - pydownx.snippets
-    - admonition
-    - pymdownx.arithmatex:
-        generic: true
-    - footnotes
-    - pymdownx.details
-    - pymdownx.superfences
-    - pymdownx.mark
-    - attr_list
-    - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/NimbusJudgeOrganization/Nimbus-Judge-Organization
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - attr_list
+  - tables
+  # formating
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
