@@ -45,4 +45,41 @@ We actively encourage contributions from the UnB community and beyond. If you ha
 
 - Our team includes six passionate developers from UnB, dedicated to making Nimbus Judge a benchmark in academic and competition coding assessments.
 
+<center>
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/Gxaite">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/111130521?v=4" width="150px;"/>
+                <h5 class="text-center">Gabriel Scheidt</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/isaacbatista26">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/118384776?v=4" width="150px;"/>
+                <h5 class="text-center">Isaac Batista</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/rafaelcarvalhoj">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/105162671?v=4" width="150px;"/>
+                <h5 class="text-center">Rafael Carvalho</h5>
+            </a>
+        </td>
+        </td>
+        <td align="center">
+            <a href="https://github.com/anajoyceamorim">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106260288?v=4" width="150px;"/>
+                <h5 class="text-center">Ana Joyce</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/johan-rocha">
+                <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/104279524?v=4" width="150px;"/>
+                <h5 class="text-center">Johan Rocha</h5>
+            </a>
+        </td>
+
+</table>
+</center>
 
