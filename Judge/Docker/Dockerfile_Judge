@@ -1,0 +1,25 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt update && apt upgrade -y && apt install -y \
+    git \
+    gcc \
+    bc \
+    bubblewrap \
+    make \
+    time \
+    tzdata
+
+WORKDIR /
+
+ENV TZ=America/Sao_Paulo
+RUN ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+
+RUN git clone https://github.com/NimbusJudgeOrganization/JUDGE_MicroJudge.git
+
+WORKDIR /JUDGE_MicroJudge/Judge
+
+# RUN ./calibreitor.sh fatorial # needs usern remap
+
+# ENTRYPOINT ["/bin/bash", "-c", "build-and-test.sh", "c", "jorge.c", "fatorial"] # needs usern remap
