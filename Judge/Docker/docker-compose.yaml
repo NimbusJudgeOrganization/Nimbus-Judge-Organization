@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  judge:
+    image: judge_image
+    container_name: judge
+    platform: linux/amd64
+    stdin_open: true # until the usern remap works
+    privileged: true
+    tty: true
+    command: /bin/bash
+    build:
+      context: .
+      dockerfile: Dockerfile_Judge
