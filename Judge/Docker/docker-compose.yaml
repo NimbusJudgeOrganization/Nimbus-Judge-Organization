@@ -1,14 +1,15 @@
-version: '3.8'
-
 services:
   judge:
     image: judge_image
     container_name: judge
     platform: linux/amd64
-    stdin_open: true # until the usern remap works
+    #stdin_open: true # until the usern remap works
     privileged: true
-    tty: true
+    #tty: true
     command: /bin/bash
+    ports:
+      - "8280:8280"
     build:
       context: .
       dockerfile: Dockerfile_Judge
+    entrypoint: ["/bin/bash", "-c", "./calibreitor.sh fatorial && ./build-and-test.sh c jorge.c fatorial"]

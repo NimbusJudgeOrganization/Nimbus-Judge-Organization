@@ -20,6 +20,4 @@ RUN git clone https://github.com/NimbusJudgeOrganization/JUDGE_MicroJudge.git
 
 WORKDIR /JUDGE_MicroJudge/Judge
 
-# RUN ./calibreitor.sh fatorial # needs usern remap
-
-# ENTRYPOINT ["/bin/bash", "-c", "build-and-test.sh", "c", "jorge.c", "fatorial"] # needs usern remap
+# needs usern remap
